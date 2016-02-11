@@ -10,12 +10,13 @@
 <div id="website">
     <div id="nav">
         <ul class="nav">
-            <li><a href="main.html"><img src="http://klingonska.org/akademien/logo/ka-logo/ka-logo-color_transparent_bg.svg" id="logo" /></a></li>
+            <li><a href="main.html"><img src="logo.svg" id="logo" /></a></li>
             <li class="test"><a href="main.html"><b>HOME</b></a></li>
             <li class="test"><a href="products.html"><b>PRODUCTS</b></a></li>
             <li class="test"><a href="contact.html"><b>CONTACTS</b></a></li>
             <li class="test"><a href="about.html"><b>ABOUT</b></a></li>
             <li class="test"><a href="faq.html"><b>FAQ</b></a></li>
+            <li id="shoppingcart"><a href="cart.php"><img src=shopping-cart.png id="cart" /></a></li>
         </ul>
     </div>
     <div id="header">TRUETECH PRODUCTS</div>
@@ -23,52 +24,70 @@
             <table align="center">
                 <tr>
                     <td align="center">
-                        <img class="product" src="http://ecx.images-amazon.com/images/I/61k%2ButIGpvL._SL1080_.jpg" />
-                        <p id="desc1">Computer Case</p>
+                        <img class="product" src="computer-case.jpg"/>
+                        <p><b>Computer Case</b></p>
+                        <p>$59.99</p>
+                        <input type="number" id="computercase" name="casequantity" placeholder="Quantity"/>
                         <button type="button">Add to cart</button>
                     </td>
                     <td align="center">
-                        <img class="product" src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Laptop-hard-drive-exposed.jpg"/>
-                        <p id="desc2">Hard drive</p>
+                        <img class="product" src="hard-drive.jpg"/>
+                        <p><b>Hard drive</b></p>
+                        <p>$53.99</p>
+                        <input type="number" id="harddrive" name="hddquantity" placeholder="Quantity"/>
                         <button type="button">Add to cart</button>
                     </td>
                     <td align="center">
-                        <img class="product" src="https://upload.wikimedia.org/wikipedia/commons/d/dd/MicroATX_Motherboard_with_AMD_Athlon_Processor_2_Digon3.jpg"/>
-                        <p id="desc3">Motherboard</p>
-                        <button type="button">Add to cart</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td align="center">
-                        <img class="product" src="http://ecx.images-amazon.com/images/I/81IlZ4IUGjL._SL1200_.jpg"/>
-                        <p id="desc4">Graphics Card</p>
-                        <button type="button">Add to cart</button>
-                    </td>
-                    <td align="center">
-                        <img class="product" src="https://mycoolhardware.files.wordpress.com/2014/03/wew.jpg"/>
-                        <p id="desc5">Power supply</p>
-                        <button type="button">Add to cart</button>
-                    </td>
-                    <td align="center">
-                        <img class="product" src="http://i1-news.softpedia-static.com/images/news2/First-Germanium-Circuits-Open-Doors-for-Non-Silicon-CPUs-468005-2.jpg"/>
-                        <p id="desc6">CPU</p>
+                        <img class="product" src="motherboard1.jpeg"/>
+                        <p><b>Motherboard</b></p>
+                        <p>$199.99</p>
+                        <input type="number" id="mboard" name="mboardquantity" placeholder="Quantity"/>
                         <button type="button">Add to cart</button>
                     </td>
                 </tr>
                 <tr>
                     <td align="center">
-                        <img class="product" src="http://ep.yimg.com/ay/outletpc/g-skill-f3-1600c9d-16gsr-sniper-16gb-2x8gb-ddr3-1600mhz-memory-26.jpg"/>
-                        <p id="desc7">RAM</p>
+                        <img class="product" src="graphics-card.jpg"/>
+                        <p><b>Graphics Card</b></p>
+                        <p>$344.99</p>
+                        <input type="number" id="gcard" name="gcardquantity" placeholder="Quantity"/>
                         <button type="button">Add to cart</button>
                     </td>
                     <td align="center">
-                        <img class="product" src="http://ecx.images-amazon.com/images/I/91EF674RkQL._SL1500_.jpg"/>
-                        <p id="desc8">Sound card</p>
+                        <img class="product" src="power-supply.jpg"/>
+                        <p><b>Power supply</b></p>
+                        <p>$39.99</p>
+                        <input type="number" id="psupply" name="psupplyquantity" placeholder="Quantity"/>
                         <button type="button">Add to cart</button>
                     </td>
                     <td align="center">
-                        <img class="product" src="http://www.censuspc.com/images/D/FN-PX08-20-2.JPG"/>
-                        <p id="desc9">Fans</p>
+                        <img class="product" src="CPU.jpg"/>
+                        <p><b>CPU</b></p>
+                        <p>$389.99</p>
+                        <input type="number" id="cpu" name="cpuquantity" placeholder="Quantity"/>
+                        <button type="button">Add to cart</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <img class="product" src="ram.jpg"/>
+                        <p><b>RAM</b></p>
+                        <p>$40.99</p>
+                        <input type="number" id="ram" name="ramquantity" placeholder="Quantity"/>
+                        <button type="button">Add to cart</button>
+                    </td>
+                    <td align="center">
+                        <img class="product" src="sound-card.jpg"/>
+                        <p><b>Sound card</b></p>
+                        <p>$82.99</p>
+                        <input type="number" id="scard" name="scardquantity" placeholder="Quantity"/>
+                        <button type="button">Add to cart</button>
+                    </td>
+                    <td align="center">
+                        <img class="product" src="fan1.jpg"/>
+                        <p><b>Computer Case Fans</b></p>
+                        <p>$9.99</p>
+                        <input type="number" id="fan" name="fanquantity" placeholder="Quantity"/>
                         <button type="button">Add to cart</button>
                     </td>
                 </tr>
