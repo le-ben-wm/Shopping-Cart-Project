@@ -1,8 +1,3 @@
-<?php
-//session_start();
-require_once('connection.php');
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,21 +28,21 @@ require_once('connection.php');
                     <p><b>Computer Case</b></p>
                     <p>$59.99</p>
                     <input type="number" id="computercase" name="casequantity" placeholder="Quantity" class="textbox"/>
-                    <button type="button">Add to cart</button>
+                    <a href="addtocart.php?id=1"><button type="button">Add to cart</button></a>
                 </td>
                 <td align="center">
                     <img class="product" src="hard-drive.jpg"/>
                     <p><b>Hard drive</b></p>
                     <p>$53.99</p>
                     <input type="number" id="harddrive" name="hddquantity" placeholder="Quantity" class="textbox"/>
-                    <button type="button">Add to cart</button>
+                    <a href="addtocart.php?id=2"><button type="button">Add to cart</button></a>
                 </td>
                 <td align="center">
                     <img class="product" src="motherboard1.jpeg"/>
                     <p><b>Motherboard</b></p>
                     <p>$199.99</p>
                     <input type="number" id="mboard" name="mboardquantity" placeholder="Quantity" class="textbox"/>
-                    <button type="button">Add to cart</button>
+                    <a href="addtocart.php?id=3"><button type="button">Add to cart</button></a>
                 </td>
             </tr>
             <tr>
@@ -56,21 +51,21 @@ require_once('connection.php');
                     <p><b>Graphics Card</b></p>
                     <p>$344.99</p>
                     <input type="number" id="gcard" name="gcardquantity" placeholder="Quantity" class="textbox"/>
-                    <button type="button">Add to cart</button>
+                    <a href="addtocart.php?id=4"><button type="button">Add to cart</button></a>
                 </td>
                 <td align="center">
                     <img class="product" src="power-supply.jpg"/>
                     <p><b>Power supply</b></p>
                     <p>$39.99</p>
                     <input type="number" id="psupply" name="psupplyquantity" placeholder="Quantity" class="textbox"/>
-                    <button type="button">Add to cart</button>
+                    <a href="addtocart.php?id=5"><button type="button">Add to cart</button></a>
                 </td>
                 <td align="center">
                     <img class="product" src="CPU.jpg"/>
                     <p><b>CPU</b></p>
                     <p>$389.99</p>
                     <input type="number" id="cpu" name="cpuquantity" placeholder="Quantity" class="textbox"/>
-                    <button type="button">Add to cart</button>
+                    <a href="addtocart.php?id=6"><button type="button">Add to cart</button></a>
                 </td>
             </tr>
             <tr>
@@ -79,21 +74,21 @@ require_once('connection.php');
                     <p><b>RAM</b></p>
                     <p>$40.99</p>
                     <input type="number" id="ram" name="ramquantity" placeholder="Quantity" class="textbox"/>
-                    <button type="button">Add to cart</button>
+                    <a href="addtocart.php?id=7"><button type="button">Add to cart</button></a>
                 </td>
                 <td align="center">
                     <img class="product" src="sound-card.jpg"/>
                     <p><b>Sound card</b></p>
                     <p>$82.99</p>
                     <input type="number" id="scard" name="scardquantity" placeholder="Quantity" class="textbox"/>
-                    <button type="button">Add to cart</button>
+                    <a href="addtocart.php?id=8"><button type="button">Add to cart</button></a>
                 </td>
                 <td align="center">
                     <img class="product" src="fan1.jpg"/>
                     <p><b>Computer Case Fans</b></p>
                     <p>$9.99</p>
                     <input type="number" id="fan" name="fanquantity" placeholder="Quantity" class="textbox"/>
-                    <button type="button">Add to cart</button>
+                    <a href="addtocart.php?id=9"><button type="button">Add to cart</button></a>
                 </td>
             </tr>
         </table>

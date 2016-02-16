@@ -1,8 +1,22 @@
+<?php
+
+require_once('connection.php');
+
+session_start();
+
+if (empty($_SESSION['cart'])) {
+    $_SESSION['cart'] = array();
+}
+
+array_push($_SESSION['cart'], $_GET['id']);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="stylesheet1.css" />
+    <meta charset="UTF-8">
     <title>Truetech</title>
 </head>
 <body>
@@ -19,10 +33,11 @@
             <li id="shoppingcart"><a href="cart.php"><img src=shopping-cart.png id="cart" /></a></li>
         </ul>
     </div>
-    <div id="header">ABOUT US</div>
+    <div id="header"></div>
     <div id="content">
         <div id="text">
-            <p>Our goal at Truetech is to provide various computer parts for an affordable price. While the current selection of parts is not very numerous, we plan to expand our choices as the company grows.</p>
+            <p>Product was successfully added to your cart.</p>
+            <p><a href="products.php"><button type="button">Continue Shopping</button></a><a href="cart.php"><button type="button">View Shopping Cart</button></a></p>
         </div>
     </div>
 </div>
